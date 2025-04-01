@@ -1,0 +1,51 @@
+body {
+  background-size: 100% 100%;
+  display: grid;
+  grid-template-rows: 8vh 92vh auto;
+}
+
+main {
+  background-color: #121010;
+}
+
+.main-text {
+  text-align: center;
+}
+
+.main-text h1 {
+  font-family: bebasNeue;
+  letter-spacing: 0.1rem;
+  font-size: 7.5rem;
+  margin-bottom: 1rem;
+}
+
+.center-text{
+  font-family: roboto;
+  font-size: 40px;
+}
+
+.center-text > p{
+  line-height: 0.5rem;
+}
+
+.main-subtext{
+  font-family: inter;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.50);
+  margin-bottom: 30px;
+}
+
+.main-subtext > p{
+  line-height: 0.4rem;
+}
+
+.main-icons{
+  display: flex;
+  justify-content: center;
+}
+
+.main-icons > .icons{
+  margin-right: 40px;
+  color: white;
+  font-size: 50px;
+}
